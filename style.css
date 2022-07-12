@@ -8,9 +8,14 @@ h5 {
     color: white;
 }
 
+.tittle-text {
+    text-align: start;
+    margin-top: 20%;
+}
+
 .container-form {
     background-color: white;
-    border-radius: 5%;
+    border-radius: 3%;
     position: relative;
     left: 300px;
     width: 300px;
@@ -19,17 +24,14 @@ h5 {
     box-shadow: 0px 7px 2px #685f68;
 }
 
-.form {
-    justify-content: space-around;
-}
-
 .free-trial {
     position: relative;
+    text-align: center;
     left: 780px;
     background-color: hsl(248, 32%, 49%);
     margin: 2%;
     padding: 1%;
-    width: 300px;
+    width: 150px;
     border-radius: 10%;
     box-shadow: 0px 7px 2px #685f68;
 }
