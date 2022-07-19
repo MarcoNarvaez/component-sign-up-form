@@ -3,14 +3,20 @@ body {
     background-color: hsl(0, 100%, 74%);
     font-family: 'Outfit', sans-serif;
 }
-h1,
-h5 {
+h1 {
+    color: white;
+    font-size: 3.5rem;
+}
+
+h4 {
     color: white;
 }
 
 .tittle-text {
     text-align: start;
-    margin-top: 20%;
+    position: relative;
+    top: 140px;
+    left: 200px;
 }
 
 .container-form {
@@ -19,28 +25,55 @@ h5 {
     position: relative;
     left: 300px;
     width: 300px;
-    padding: 20px;
+    bottom: 230px;
+    padding: 28px;
     margin: auto;
-    box-shadow: 0px 7px 2px #685f68;
+    width: 360px;
+    box-shadow: 0px 2px 2px #afaaaf;
+}
+
+.input {
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid rgb(213, 220, 226);
+    padding: 13px;
+    width: 300px;
+    margin: 1px;
+}
+
+input:hover{
+    transition: 1s;
+    border: 1px solid black;
 }
 
 .free-trial {
     position: relative;
     text-align: center;
-    left: 780px;
+    left: 740px;
     background-color: hsl(248, 32%, 49%);
-    margin: 2%;
-    padding: 1%;
-    width: 150px;
-    border-radius: 10%;
-    box-shadow: 0px 7px 2px #685f68;
+    margin: 20px;
+    padding: 10px;
+    width: 395px;
+    height: 30px;
+    bottom: 230px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 2px #685f68;
 }
 
 .button {
     background-color: hsl(154, 59%, 51%);
     color: white;
+    display: flex;
+    justify-content: center;
     border: none;
-    border-radius: 5%;
-    padding: 2%;
-    width: 280px;
+    border-radius: 10px;
+    padding: 5%;
+    width: 330px;
+    box-shadow: 0px 2px 1px #9c959c;
+}
+
+button:hover {
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0 4px 16px rgb(85, 87, 88);
+    transition: all 0.2s ease;
 }
