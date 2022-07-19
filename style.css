@@ -1,5 +1,5 @@
 body {
-    background-image: url('/public/bg-intro-desktop.png');
+    background-image: url('/assets/bg-intro-desktop.png');
     background-color: hsl(0, 100%, 74%);
     font-family: 'Outfit', sans-serif;
 }
@@ -76,4 +76,8 @@ button:hover {
     color: rgba(255, 255, 255, 1);
     box-shadow: 0 4px 16px rgb(85, 87, 88);
     transition: all 0.2s ease;
+}
+
+@media screen {
+    
 }
